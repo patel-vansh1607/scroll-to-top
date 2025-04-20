@@ -37,6 +37,15 @@ const ScrollToTopButton = () => {
           content: 'If the universe is so big, where is everybody? The Fermi Paradox raises the question about intelligent life and our lonely galaxy.'
         }
       ];
+
+      const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+      }
+
+
     return(
         <div className="main-div">
             <div className="test-text">
@@ -59,6 +68,9 @@ const ScrollToTopButton = () => {
                 ))}
                 </div>
             </div>
+            <button className="scroll" onClick={scrollToTop}>
+                Scroll To Top
+            </button>
         </div>
     )
 }
