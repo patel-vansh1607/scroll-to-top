@@ -1,4 +1,4 @@
-[![Project Banner](./src//images/readme-project-banner-01.png)](https://stopwatch-khaki-five.vercel.app/)
+[![Project Banner](./src//images/readme-project-banner-01.png)](https://scroll-to-top-six.vercel.app/)
 ---
 # 🚀 **Scroll To Top**  
 > _A website where when you click a button, it takes you to the top of the page_
@@ -15,10 +15,10 @@
 ## 📦 **Installation**
 ```bash
 # Clone the repo
- git clone https://github.com/patel-vansh1607/stopwatch
+ git clone https://github.com/patel-vansh1607/scroll-to-top
 
 # Navigate into the project
- cd stopwatch
+ cd scroll-to-top
 
 # Install dependencies
  npm install
